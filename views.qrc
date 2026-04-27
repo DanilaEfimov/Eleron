@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>styles/light.qss</file>
+        <file>styles/dark.qss</file>
+        <file>sprites/drone_transparent.png</file>
+        <file>sprites/photo_action48.png</file>
+        <file>sprites/video_play_action48.png</file>
+        <file>sprites/video_pause_action48.png</file>
+        <file>sprites/altitude_up_action48.png</file>
+        <file>sprites/altitude_down_action48.png</file>
+        <file>sprites/drop_action48.png</file>
+        <file>eleron64.ico</file>
+    </qresource>
+</RCC>

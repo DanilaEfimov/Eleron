@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CommandSettings</class>
+
+ <widget class="QWidget" name="CommandSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>460</height>
+   </rect>
+  </property>
+
+  <layout class="QVBoxLayout" name="verticalLayout">
+
+   <!-- WAYPOINT SELECTOR -->
+   <item>
+    <widget class="QGroupBox" name="groupWaypoint">
+     <property name="title">
+      <string>Точка маршрута</string>
+     </property>
+
+     <layout class="QVBoxLayout">
+
+      <item>
+       <widget class="QComboBox" name="comboWaypoint"/>
+      </item>
+
+     </layout>
+    </widget>
+   </item>
+
+   <!-- CHECKPOINT INFO -->
+   <item>
+    <widget class="QGroupBox" name="groupCheckPoint">
+     <property name="title">
+      <string>Информация о точке</string>
+     </property>
+
+     <layout class="QFormLayout">
+
+      <item row="0" column="0">
+       <widget class="QLabel">
+        <property name="text">
+         <string>Широта</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="labelLat"/>
+      </item>
+
+      <item row="1" column="0">
+       <widget class="QLabel">
+        <property name="text">
+         <string>Долгота</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="labelLon"/>
+      </item>
+
+      <item row="2" column="0">
+       <widget class="QLabel">
+        <property name="text">
+         <string>Высота</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="labelAlt"/>
+      </item>
+
+      <item row="3" column="0">
+       <widget class="QLabel">
+        <property name="text">
+         <string>Курс</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="labelCourse"/>
+      </item>
+
+     </layout>
+    </widget>
+   </item>
+
+   <!-- COMMAND SELECTOR -->
+   <item>
+    <widget class="QGroupBox" name="groupCommand">
+     <property name="title">
+      <string>Команда</string>
+     </property>
+
+     <layout class="QVBoxLayout">
+
+      <item>
+       <widget class="QComboBox" name="comboCommand"/>
+      </item>
+
+     </layout>
+    </widget>
+   </item>
+
+   <!-- ALTITUDE INPUT (shown only for altitude commands) -->
+   <item>
+    <widget class="QGroupBox" name="groupAltitude">
+     <property name="title">
+      <string>Целевая высота</string>
+     </property>
+
+     <layout class="QHBoxLayout">
+
+      <item>
+       <widget class="QLabel" name="labelAltitudeHint">
+        <property name="text">
+         <string>Высота (м):</string>
+        </property>
+       </widget>
+      </item>
+
+      <item>
+       <widget class="QDoubleSpinBox" name="spinTargetAltitude">
+        <property name="minimum">
+         <double>10.000000</double>
+        </property>
+        <property name="maximum">
+         <double>200.000000</double>
+        </property>
+        <property name="singleStep">
+         <double>5.000000</double>
+        </property>
+        <property name="value">
+         <double>50.000000</double>
+        </property>
+       </widget>
+      </item>
+
+     </layout>
+    </widget>
+   </item>
+
+   <!-- COLOR LEGEND -->
+   <item>
+    <widget class="QGroupBox" name="groupLegend">
+     <property name="title">
+      <string>Легенда цветов</string>
+     </property>
+     <layout class="QGridLayout" name="legendLayout">
+     </layout>
+    </widget>
+   </item>
+
+   <!-- YOUR EXISTING WIDGET -->
+   <item>
+    <widget class="DialogOptions" name="dialogOptions"/>
+   </item>
+
+  </layout>
+ </widget>
+
+ <resources/>
+ <connections/>
+</ui>

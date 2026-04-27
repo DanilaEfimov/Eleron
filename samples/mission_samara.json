@@ -1,0 +1,332 @@
+{
+    "board": {
+        "batteryLevel": 100,
+        "coordinates": {
+            "altitude": 0,
+            "course": 0,
+            "latitude": 0,
+            "longitude": 0
+        },
+        "speed": 0,
+        "temperature": 25
+    },
+    "environment": {
+        "humidity": 58,
+        "temperature": 15,
+        "windDirection": 150,
+        "windSpeed": 5.5
+    },
+    "path": {
+        "checkPoints": [
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 0,
+                    "latitude": 153.33333333333334,
+                    "longitude": 120
+                }
+            },
+            {
+                "command": {
+                    "action": 1,
+                    "actionName": "Сделать фото"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 10.420712396794507,
+                    "latitude": 260,
+                    "longitude": 700
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 9.039482803355122,
+                    "latitude": 353.33333333333337,
+                    "longitude": 1286.6666666666667
+                }
+            },
+            {
+                "command": {
+                    "action": 4,
+                    "actionName": "Увеличить высоту"
+                },
+                "position": {
+                    "altitude": 60,
+                    "course": 7.125016348901792,
+                    "latitude": 386.6666666666667,
+                    "longitude": 1553.3333333333335
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 77.77487732426428,
+                    "latitude": 786.6666666666667,
+                    "longitude": 1640
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 15.376251248826168,
+                    "latitude": 860,
+                    "longitude": 1906.6666666666667
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 14.99507912917599,
+                    "latitude": 960,
+                    "longitude": 2280
+                }
+            },
+            {
+                "command": {
+                    "action": 2,
+                    "actionName": "Начать видео"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 334.470302009467,
+                    "latitude": 746.6666666666667,
+                    "longitude": 2726.666666666667
+                }
+            },
+            {
+                "command": {
+                    "action": 5,
+                    "actionName": "Уменьшить высоту"
+                },
+                "position": {
+                    "altitude": 35,
+                    "course": 0,
+                    "latitude": 746.6666666666667,
+                    "longitude": 2926.666666666667
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 358.71267105847494,
+                    "latitude": 733.3333333333334,
+                    "longitude": 3520
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 6.766174822553053,
+                    "latitude": 780,
+                    "longitude": 3913.3333333333335
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 45.000000000000036,
+                    "latitude": 966.6666666666667,
+                    "longitude": 4100
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 2.544804379813081,
+                    "latitude": 980,
+                    "longitude": 4400
+                }
+            },
+            {
+                "command": {
+                    "action": 3,
+                    "actionName": "Остановить видео"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 7.594643368591445,
+                    "latitude": 1020,
+                    "longitude": 4700
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 44.999999999999964,
+                    "latitude": 1186.6666666666667,
+                    "longitude": 4866.666666666667
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 59.0362434679265,
+                    "latitude": 1353.3333333333335,
+                    "longitude": 4966.666666666667
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 51.6325146151385,
+                    "latitude": 1673.3333333333335,
+                    "longitude": 5220
+                }
+            },
+            {
+                "command": {
+                    "action": 1,
+                    "actionName": "Сделать фото"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 44.215175397008075,
+                    "latitude": 1913.3333333333335,
+                    "longitude": 5466.666666666667
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 68.36911316348211,
+                    "latitude": 2300,
+                    "longitude": 5620
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 74.62374875117371,
+                    "latitude": 2566.666666666667,
+                    "longitude": 5693.333333333334
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 104.82647997035568,
+                    "latitude": 2793.3333333333335,
+                    "longitude": 5633.333333333334
+                }
+            },
+            {
+                "command": {
+                    "action": 4,
+                    "actionName": "Увеличить высоту"
+                },
+                "position": {
+                    "altitude": 75,
+                    "course": 127.30394827798352,
+                    "latitude": 3073.3333333333335,
+                    "longitude": 5420
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 182.9737310824801,
+                    "latitude": 3046.666666666667,
+                    "longitude": 4906.666666666667
+                }
+            },
+            {
+                "command": {
+                    "action": 0,
+                    "actionName": "Нет команды"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 167.56043798115346,
+                    "latitude": 3146.666666666667,
+                    "longitude": 4453.333333333334
+                }
+            },
+            {
+                "command": {
+                    "action": 6,
+                    "actionName": "Сброс полезной нагрузки"
+                },
+                "position": {
+                    "altitude": 50,
+                    "course": 147.8042660652868,
+                    "latitude": 3373.3333333333335,
+                    "longitude": 4093.3333333333335
+                }
+            }
+        ],
+        "empty": false,
+        "size": 25
+    },
+    "telemetry": {
+        "communicationFrequency": 3,
+        "modulation": "QPSK",
+        "numSatellites": 2
+    },
+    "timestamp": "2026-04-27T15:14:11",
+    "version": "1.0"
+}
